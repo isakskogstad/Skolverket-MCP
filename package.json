@@ -1,6 +1,6 @@
 {
   "name": "skolverket-mcp",
-  "mcpName": "io.github.KSAklfszf921/skolverket-mcp",
+  "mcpName": "io.github.isakskogstad/skolverket-mcp",
   "version": "2.7.0",
   "description": "MCP server för alla Skolverkets öppna API:er - Läroplan API, Skolenhetsregistret och Planned Educations API",
   "main": "dist/index.js",
@@ -58,11 +58,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KSAklfszf921/Skolverket-MCP.git"
+    "url": "git+https://github.com/isakskogstad/Skolverket-MCP.git"
   },
-  "homepage": "https://github.com/KSAklfszf921/Skolverket-MCP#readme",
+  "homepage": "https://github.com/isakskogstad/Skolverket-MCP#readme",
   "bugs": {
-    "url": "https://github.com/KSAklfszf921/Skolverket-MCP/issues"
+    "url": "https://github.com/isakskogstad/Skolverket-MCP/issues"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.20.2",

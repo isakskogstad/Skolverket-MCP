@@ -24,6 +24,7 @@ Please do not report security vulnerabilities through public GitHub issues, as t
 **Subject:** `[SECURITY] Skolverket-MCP Vulnerability Report`
 
 **Include:**
+
 - Description of the vulnerability
 - Steps to reproduce the issue
 - Potential impact
@@ -46,27 +47,25 @@ Please do not report security vulnerabilities through public GitHub issues, as t
 
 When using Skolverket-MCP:
 
-### For Remote Server (Render)
-- ✅ No authentication required (public API)
-- ✅ Rate limiting is in place
-- ✅ HTTPS enforced
-- ⚠️ Do not expose sensitive data in queries
-
 ### For Local Installation
+
 - ✅ Keep dependencies updated: `npm audit` and `npm update`
 - ✅ Use environment variables for sensitive configuration
 - ⚠️ Never commit `.env` files to version control
 - ⚠️ Restrict file system access appropriately
+- ⚠️ Do not expose sensitive data in queries
 
 ## Known Security Considerations
 
 ### API Access
+
 - This server connects to **Skolverkets öppna API:er** (public APIs)
 - No authentication is required for Skolverket's public APIs
 - No sensitive data is stored by this MCP server
 - All API calls are read-only
 
 ### Data Privacy
+
 - This server does **not** collect or store personal information
 - Query logs may contain search terms but no user identification
 - Data is sourced from public Swedish education databases
@@ -83,12 +82,14 @@ npm audit fix
 ## Security Updates
 
 Subscribe to repository notifications to receive security updates:
+
 - Watch this repository on GitHub
 - Enable **"Security alerts"** in your GitHub notification settings
 
 ## Contact
 
 For security concerns:
+
 - **Email:** isak.skogstad@me.com
 - **X/Twitter:** [@isakskogstad](https://x.com/isakskogstad)
 

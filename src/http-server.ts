@@ -381,7 +381,7 @@ Content-Type: application/json
         <div class="code-block">
 <span class="comment"># Lägg till MCP-server i Claude Code:</span>
 claude mcp add --transport http skolverket \\
-  https://skolverket-mcp.onrender.com/sse
+  http://localhost:3000/sse
         </div>
 
         <h3>Använd i Webbaserad Chatbot</h3>
@@ -390,7 +390,7 @@ claude mcp add --transport http skolverket \\
   <span class="string">"mcpServers"</span>: [
     {
       <span class="string">"name"</span>: <span class="string">"skolverket"</span>,
-      <span class="string">"url"</span>: <span class="string">"https://skolverket-mcp.onrender.com"</span>,
+      <span class="string">"url"</span>: <span class="string">"http://localhost:3000"</span>,
       <span class="string">"transport"</span>: <span class="string">"http"</span>,
       <span class="string">"endpoints"</span>: {
         <span class="string">"tools"</span>: <span class="string">"/tools"</span>,
@@ -405,7 +405,7 @@ claude mcp add --transport http skolverket \\
         <h3>Curl Exempel</h3>
         <div class="code-block">
 <span class="comment"># Sök efter ämnen:</span>
-curl -X POST https://skolverket-mcp.onrender.com/execute \\
+curl -X POST http://localhost:3000/execute \\
   -H <span class="string">"Content-Type: application/json"</span> \\
   -d <span class="string">'{
     "tool": "search_subjects",
@@ -419,7 +419,7 @@ curl -X POST https://skolverket-mcp.onrender.com/execute \\
       <div class="section">
         <h2>📖 Resurser</h2>
         <p>
-          <a href="https://github.com/KSAklfszf921/skolverket-mcp" target="_blank">📦 GitHub Repository</a> •
+          <a href="https://github.com/isakskogstad/skolverket-mcp" target="_blank">📦 GitHub Repository</a> •
           <a href="https://api.skolverket.se" target="_blank">🔗 Skolverkets API</a> •
           <a href="https://modelcontextprotocol.io" target="_blank">📚 MCP Dokumentation</a>
         </p>

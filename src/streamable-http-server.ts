@@ -1836,7 +1836,7 @@ app.get('/', (req, res) => {
             <line x1="3" y1="18" x2="21" y2="18"></line>
           </svg>
         </button>
-        <a href="https://github.com/KSAklfszf921/Skolverket-MCP" target="_blank" class="nav-link">
+        <a href="https://github.com/isakskogstad/Skolverket-MCP" target="_blank" class="nav-link">
           <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
             <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
           </svg>
@@ -1886,7 +1886,7 @@ app.get('/', (req, res) => {
         </svg>
         <span>Innehållsförteckning</span>
       </button>
-      <a href="https://github.com/KSAklfszf921/Skolverket-MCP" target="_blank" class="mobile-menu-item">
+      <a href="https://github.com/isakskogstad/Skolverket-MCP" target="_blank" class="mobile-menu-item">
         <svg width="20" height="20" fill="currentColor" viewBox="0 0 16 16">
           <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/>
         </svg>
@@ -1937,7 +1937,7 @@ app.get('/', (req, res) => {
   <div class="footer">
     <p>
       Skolverket MCP Server v2.1.0 · Skapad av Isak Skogstad<br>
-      <a href="https://github.com/KSAklfszf921/Skolverket-MCP" target="_blank">GitHub</a> ·
+      <a href="https://github.com/isakskogstad/Skolverket-MCP" target="_blank">GitHub</a> ·
       <a href="/health">Health Check</a> ·
       <a href="https://modelcontextprotocol.io" target="_blank">Om MCP</a>
     </p>
@@ -1948,7 +1948,7 @@ app.get('/', (req, res) => {
 
 
   <script>
-    const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/KSAklfszf921/Skolverket-MCP/master/';
+    const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/isakskogstad/Skolverket-MCP/master/';
 
     const docs = {
       'README': 'README.md',
@@ -2387,7 +2387,7 @@ app.get('/', (req, res) => {
           <div style="text-align: center; padding: 80px 24px;">
             <p style="color: #ff3b30; font-weight: 500; font-size: 16px;">Kunde inte ladda dokumentation</p>
             <p style="color: #86868b; margin-top: 12px;">Kontrollera att GitHub är tillgängligt eller besök
-              <a href="https://github.com/KSAklfszf921/Skolverket-MCP" target="_blank" style="color: #007aff;">repot direkt</a>
+              <a href="https://github.com/isakskogstad/Skolverket-MCP" target="_blank" style="color: #007aff;">repot direkt</a>
             </p>
           </div>
         \`;

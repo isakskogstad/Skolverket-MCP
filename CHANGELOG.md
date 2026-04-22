@@ -277,7 +277,7 @@ Flat format (elever):
 - **MCP Registry support** - Published to official Model Context Protocol Registry
   - Added `server.json` for MCP Registry configuration
   - Added `mcpName` field to package.json for registry validation
-  - Server now discoverable at `io.github.KSAklfszf921/skolverket-mcp`
+  - Server now discoverable at `io.github.isakskogstad/Skolverket-MCP`
 
 ### Changed
 - Updated npm package to include `server.json` in published files
@@ -351,5 +351,5 @@ Flat format (elever):
 - MCP SDK integration
 - Zod schema-validering
 
-[2.0.0]: https://github.com/KSAklfszf921/skolverket-syllabus-mcp/compare/v1.0.0...v2.0.0
-[1.0.0]: https://github.com/KSAklfszf921/skolverket-syllabus-mcp/releases/tag/v1.0.0
+[2.0.0]: https://github.com/isakskogstad/Skolverket-MCP/compare/v1.0.0...v2.0.0
+[1.0.0]: https://github.com/isakskogstad/Skolverket-MCP/releases/tag/v1.0.0

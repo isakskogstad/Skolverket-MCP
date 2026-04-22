@@ -1,11 +1,11 @@
 blank_issues_enabled: true
 contact_links:
   - name: 💬 GitHub Discussions
-    url: https://github.com/KSAklfszf921/Skolverket-MCP/discussions
+    url: https://github.com/isakskogstad/Skolverket-MCP/discussions
     about: Ställ frågor, dela exempel och diskutera nya idéer
   - name: 📖 Dokumentation
-    url: https://github.com/KSAklfszf921/Skolverket-MCP#readme
+    url: https://github.com/isakskogstad/Skolverket-MCP#readme
     about: Läs README och dokumentation för installation och användning
   - name: 🔒 Säkerhetsrapport
-    url: https://github.com/KSAklfszf921/Skolverket-MCP/security/advisories/new
+    url: https://github.com/isakskogstad/Skolverket-MCP/security/advisories/new
     about: Rapportera säkerhetsproblem privat

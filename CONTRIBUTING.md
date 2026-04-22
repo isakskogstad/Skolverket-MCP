@@ -47,7 +47,7 @@ claude mcp add skolverket-dev node /absolut/sökväg/till/dist/index.js
 ### 🐛 Buggrapporter
 
 **Innan du rapporterar en bugg:**
-- Kolla [befintliga issues](https://github.com/KSAklfszf921/Skolverket-MCP/issues)
+- Kolla [befintliga issues](https://github.com/isakskogstad/Skolverket-MCP/issues)
 - Testa med senaste versionen
 - Försök isolera problemet
 
@@ -63,7 +63,7 @@ claude mcp add skolverket-dev node /absolut/sökväg/till/dist/index.js
 Vi älskar nya idéer! När du föreslår en feature:
 - Förklara **varför** denna feature behövs
 - Ge exempel på **hur** den skulle användas
-- Diskutera i [Discussions](https://github.com/KSAklfszf921/Skolverket-MCP/discussions) först för större features
+- Diskutera i [Discussions](https://github.com/isakskogstad/Skolverket-MCP/discussions) först för större features
 
 ### 📚 Dokumentation
 
@@ -264,4 +264,4 @@ Varje bidrag, stort som litet, hjälper till att göra Skolverket-MCP bättre f�
 
 ---
 
-**Frågor?** Öppna en [Discussion](https://github.com/KSAklfszf921/Skolverket-MCP/discussions) eller skicka ett mail!
+**Frågor?** Öppna en [Discussion](https://github.com/isakskogstad/Skolverket-MCP/discussions) eller skicka ett mail!
